@@ -14,7 +14,7 @@ const NavBar = () => {
           <nav className="" x-data="">
             <div className="container relative flex flex-wrap items-center justify-between h-24 mx-auto overflow-hidden font-medium border-b border-indigo-400 md:overflow-visible lg:justify-center sm:px-4 md:px-2 lg:px-0">
               <div className="flex items-center justify-start w-1/4 h-full pr-4">
-                <span className=" pt-4 text-xl font-black leading-none text-indigo-700 cursor-default space-x-1 hover:text-gray-500">
+                <span className=" pt-4 text-xl font-black leading-none text-gray-900 cursor-default space-x-1 hover:text-gray-500">
                   Luiso.
                 </span>
               </div>
@@ -60,7 +60,7 @@ const NavBar = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="text-indigo-600 space-x-1 hover:text-gray-500">
+                <div className="text-gray-900  space-x-1 hover:text-gray-500">
                   <a href="https://www.linkedin.com/in/luis-michinaux/">
                     {" "}
                     <svg
